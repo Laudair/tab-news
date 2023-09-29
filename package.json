@@ -4,7 +4,9 @@
   "description": "Implementation of tab news from curso.dev",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Laudair/tab-news/issues"
   },
-  "homepage": "https://github.com/Laudair/tab-news#readme"
+  "homepage": "https://github.com/Laudair/tab-news#readme",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
 }
